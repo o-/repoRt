@@ -14,3 +14,9 @@
 * benchmarks: https://github.com/rbenchmark/benchmarks.git
 
 # Results
+
+## Runtime
+
+### Mmaped memory
+
+![](data/experiments/runtime-mmap.png)
