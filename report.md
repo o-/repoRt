@@ -19,4 +19,4 @@
 
 ### Mmaped memory
 
-![](data/experiments/runtime-mmap.png)
+![](https://raw.githubusercontent.com/o-/repoRt/master/data/experiments/runtime-mmap.png)
