@@ -1,0 +1,17 @@
+bin_packing.R, 1627.0, 2943.0
+binary-trees.R, 295.0, 326.0
+randomForest.R, 67.0, 34.0
+pen_l1_regression.R, 4443.0, 10873.0
+qda.R, 809.0, 2814.0
+ctree.R, 202.0, 359.0
+cforest.R, 196.0, 150.0
+glm_logistic.R, 124.0, 107.0
+knn.R, 61.0, 39.0
+lm.R, 273.0, 236.0
+svm.R, 84.0, 67.0
+R-benchmark-25.R, 198.0, 227.0
+spectral-norm.r, 34.0, 8.0
+k-nucleotide.R, 886.0, 820.0
+nbody.R, 3059.0, 3212.0
+fasta.R, 8937.0, 356.0
+rw2d1.R, 392.0, 172.0
