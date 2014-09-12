@@ -47,8 +47,8 @@ Number of GCs (minor & full)
 
 ## Binpacking
 
-![](https://raw.githubusercontent.com/o-/repoRt/master/data/mumusg/benchR_bin-packing.png)
+![](https://raw.githubusercontent.com/o-/repoRt/master/data/memusg/benchR_bin-packing.png)
 
 ## Binary trees
 
-![](https://raw.githubusercontent.com/o-/repoRt/master/data/mumusg/shootout_binary-trees.png)
+![](https://raw.githubusercontent.com/o-/repoRt/master/data/memusg/shootout_binary-trees.png)
