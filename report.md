@@ -42,3 +42,13 @@ Number of GCs (minor & full)
 ### Mmap version
 
 ![](https://raw.githubusercontent.com/o-/repoRt/master/data/experiments/gc_cycles-mmap.png)
+
+# Overall Heapsize
+
+## Binpacking
+
+![](https://raw.githubusercontent.com/o-/repoRt/master/data/mumusg/benchR_bin-packing.png)
+
+## Binary trees
+
+![](https://raw.githubusercontent.com/o-/repoRt/master/data/mumusg/shootout_binary-trees.png)
