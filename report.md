@@ -42,7 +42,7 @@ Additionally we see the new gc (in the mmap version) using slightly more memory 
 
 ## Runtime
 
-Overall Wall time
+Overall Wall time (s)
 
 ### Mmap version
 
@@ -54,7 +54,7 @@ Overall Wall time
 
 ## GC Time
 
-Time spent in GC.
+Time spent in GC (s).
 
 ### Mmap version
 
@@ -70,12 +70,4 @@ Huge difference in nbody would need to be analyzed.
 
 Number of GCs (minor & full)
 
-### Mmap version
-
 ![](https://raw.githubusercontent.com/o-/repoRt/master/data/experiments/gc_cycles-mmap.png)
-
-### Posix Memalign version
-
-![](https://raw.githubusercontent.com/o-/repoRt/master/data/experiments/gc_cycles-posix-memalign.png)
-
-
