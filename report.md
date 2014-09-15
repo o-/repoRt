@@ -70,10 +70,10 @@ Number of GCs (minor & full)
 
 # Comparing Heapsize
 
-Overall Heapsize of the R process sequentially running a suite of benchmarks.
+Overall Heapsize of the R process sequentially running a suite of benchmarks (megabytes vs. seconds).
 
 ![](https://raw.githubusercontent.com/o-/repoRt/master/data/memusg/memusg.png)
 
 We see that the new gc using posix memalign terminates faster than baseline R, but uses twice as much memory. The memory available to the runtime is exactly the same in the posix memalign and the mmap version. This shows the potential performance of the new gc, but highlights the need for a two level memory manager to get large chunks of aligned memory from the OS.
 
-Additionally we see the new gc (in the mmap version) using the same ammount of memory as baseline, even though we save two pointers per object. The reason is, that power of two byte-size buckets do not align well to actual R vectors. A better solution for heap segmentation would be required, or maybe differently sized objects should be allocated on the same page.
+Additionally we see the new gc (in the mmap version) using slightly more memory as baseline, even though we save two pointers per object. The reason is, that power of two byte-size buckets do not align well to actual R vectors. A better solution for heap segmentation would be required, or maybe differently sized objects should be allocated on the same page.
