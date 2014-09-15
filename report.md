@@ -17,7 +17,14 @@ The following two sources are used for benchmarks:
 * benchR:  https://github.com/allr/benchR.git
 * benchmarks: https://github.com/rbenchmark/benchmarks.git
 
-# Comparing Runtime against baseline R
+# General Remarks
+
+* Performance of both GCs comparable
+* Directly using mmap to get aligned pages is slow
+* posix_memalign is not usable (on linux) since it overcommits by roughly x2
+* Heapsize is similar. New gc saves 2 pointers per object, but has more overhead. The overhead is due to the fact that in baseline gc the sizebuckets are powers-of-two of payload sizes, whereas in the new gc sizebuckets are powers-of-two bytesizes. The new GC sizebuckets align badly with list objects (36 bytes) and vectors of size 2 (36 bytes) both ending up in 64 byte space.
+
+# Results: Comparing Runtime against baseline R
 
 ## Runtime
 
@@ -33,17 +40,19 @@ Overall Wall time
 
 ## GC Time
 
-Time spent in GC
+Time spent in GC.
 
 ### Mmap version
 
 ![](https://raw.githubusercontent.com/o-/repoRt/master/data/experiments/gc_time-mmap.png)
 
+Huge difference in nbody would need to be analyzed.
+
 ### Posix Memalign version
 
 ![](https://raw.githubusercontent.com/o-/repoRt/master/data/experiments/gc_time-posix-memalign.png)
 
-## GC Cycles
+## GC Cycles (logscale)
 
 Number of GCs (minor & full)
 
