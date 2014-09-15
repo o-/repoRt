@@ -28,7 +28,17 @@ The following two sources are used for benchmarks:
 * posix_memalign is not usable (on linux) since it overcommits by roughly x2
 * Heapsize is similar. New gc saves 2 pointers per object, but has more overhead. The overhead is due to the fact that in baseline gc the sizebuckets are powers-of-two of payload sizes, whereas in the new gc sizebuckets are powers-of-two bytesizes. The new GC sizebuckets align badly with list objects (36 bytes) and vectors of size 2 (36 bytes) both ending up in 64 byte space.
 
-# Results: Comparing Runtime against baseline R
+# Results: Comparing Heapsize
+
+Overall Heapsize of the R process sequentially running a suite of benchmarks (megabytes vs. seconds).
+
+![](https://raw.githubusercontent.com/o-/repoRt/master/data/memusg/memusg.png)
+
+We see that the new gc using posix memalign terminates faster than baseline R, but uses twice as much memory. The memory available to the runtime is exactly the same in the posix memalign and the mmap version. This shows the potential performance of the new gc, but highlights the need for a two level memory manager to get large chunks of aligned memory from the OS.
+
+Additionally we see the new gc (in the mmap version) using slightly more memory as baseline, even though we save two pointers per object. The reason is, that power of two byte-size buckets do not align well to actual R vectors. A better solution for heap segmentation would be required, or maybe differently sized objects should be allocated on the same page.
+
+# Results: Comparing Runtime and GC time
 
 ## Runtime
 
@@ -68,12 +78,4 @@ Number of GCs (minor & full)
 
 ![](https://raw.githubusercontent.com/o-/repoRt/master/data/experiments/gc_cycles-posix-memalign.png)
 
-# Comparing Heapsize
 
-Overall Heapsize of the R process sequentially running a suite of benchmarks (megabytes vs. seconds).
-
-![](https://raw.githubusercontent.com/o-/repoRt/master/data/memusg/memusg.png)
-
-We see that the new gc using posix memalign terminates faster than baseline R, but uses twice as much memory. The memory available to the runtime is exactly the same in the posix memalign and the mmap version. This shows the potential performance of the new gc, but highlights the need for a two level memory manager to get large chunks of aligned memory from the OS.
-
-Additionally we see the new gc (in the mmap version) using slightly more memory as baseline, even though we save two pointers per object. The reason is, that power of two byte-size buckets do not align well to actual R vectors. A better solution for heap segmentation would be required, or maybe differently sized objects should be allocated on the same page.
