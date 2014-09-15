@@ -3,373 +3,373 @@
   :arguments: 
   :samples: 3
   :new_runtime:
-  - 16.37
-  - 16.39
-  - 16.2
-  :new_runtime_avg: 16.320000000000004
-  :new_gc_cycles: 1627
-  :new_percent_gc_time: 0.23059999999999997
-  :new_percent_marking: 0.21189999999999998
-  :new_percent_sweeping: 0.0187
-  :new_percent_kernel_page_fault: 0.06760000000000001
+  - 14.5
+  - 14.44
+  - 14.4
+  :new_runtime_avg: 14.446666666666665
+  :new_gc_cycles: 1626
+  :new_percent_gc_time: 0.21219999999999997
+  :new_percent_marking: 0.19569999999999999
+  :new_percent_sweeping: 0.016499999999999997
+  :new_percent_kernel_page_fault: 0.059699999999999996
   :baseline_runtime:
-  - 14.37
-  - 14.34
-  - 14.38
-  :baseline_runtime_avg: 14.363333333333335
-  :baseline_gc_cycles: 2943
-  :baseline_percent_gc_time: 0.2621
-  :runtime_cmp: 1.1362265026688327
-  :gc_cycle_cmp: 0.5528372409106354
+  - 12.67
+  - 12.67
+  - 12.67
+  :baseline_runtime_avg: 12.67
+  :baseline_gc_cycles: 2980
+  :baseline_percent_gc_time: 0.2809
+  :runtime_cmp: 1.1402262562483556
+  :gc_cycle_cmp: 0.5456375838926174
 - :benchmark: binary-trees.R
   :arguments: 
   :samples: 3
   :new_runtime:
-  - 5.67
-  - 5.7
-  - 5.68
-  :new_runtime_avg: 5.683333333333334
-  :new_gc_cycles: 295
-  :new_percent_gc_time: 0.2046
-  :new_percent_marking: 0.09150000000000001
-  :new_percent_sweeping: 0.1131
-  :new_percent_kernel_page_fault: 0.0024
+  - 4.88
+  - 4.91
+  - 4.89
+  :new_runtime_avg: 4.8933333333333335
+  :new_gc_cycles: 294
+  :new_percent_gc_time: 0.23020000000000002
+  :new_percent_marking: 0.1019
+  :new_percent_sweeping: 0.1283
+  :new_percent_kernel_page_fault: 0.0016
   :baseline_runtime:
-  - 5.58
-  - 5.6
-  - 5.58
-  :baseline_runtime_avg: 5.586666666666666
+  - 5.0
+  - 5.01
+  - 4.99
+  :baseline_runtime_avg: 5.0
   :baseline_gc_cycles: 326
-  :baseline_percent_gc_time: 0.05
-  :runtime_cmp: 1.0173031026252985
-  :gc_cycle_cmp: 0.9049079754601227
+  :baseline_percent_gc_time: 0.054900000000000004
+  :runtime_cmp: 0.9786666666666667
+  :gc_cycle_cmp: 0.901840490797546
 - :benchmark: randomForest.R
   :arguments: 41 1
   :samples: 3
   :new_runtime:
-  - 26.82
-  - 27.28
-  - 27.17
-  :new_runtime_avg: 27.090000000000003
+  - 22.54
+  - 22.64
+  - 22.52
+  :new_runtime_avg: 22.566666666666666
   :new_gc_cycles: 67
-  :new_percent_gc_time: 0.0109
-  :new_percent_marking: 0.0103
+  :new_percent_gc_time: 0.011800000000000001
+  :new_percent_marking: 0.011200000000000002
   :new_percent_sweeping: 0.0006
-  :new_percent_kernel_page_fault: 0.0028
+  :new_percent_kernel_page_fault: 0.0029
   :baseline_runtime:
-  - 26.86
-  - 26.81
-  - 27.14
-  :baseline_runtime_avg: 26.936666666666667
+  - 22.51
+  - 22.41
+  - 22.52
+  :baseline_runtime_avg: 22.48
   :baseline_gc_cycles: 34
-  :baseline_percent_gc_time: 0.01
-  :runtime_cmp: 1.005692364806336
+  :baseline_percent_gc_time: 0.0116
+  :runtime_cmp: 1.0038552787663109
   :gc_cycle_cmp: 1.9705882352941178
 - :benchmark: pen_l1_regression.R
   :arguments: 4 5
   :samples: 3
   :new_runtime:
-  - 150.56
-  - 150.8
-  - 150.29
-  :new_runtime_avg: 150.54999999999998
-  :new_gc_cycles: 4443
-  :new_percent_gc_time: 0.09539999999999998
-  :new_percent_marking: 0.0725
-  :new_percent_sweeping: 0.022899999999999997
-  :new_percent_kernel_page_fault: 0.0364
+  - 129.58
+  - 130.8
+  - 130.33
+  :new_runtime_avg: 130.23666666666668
+  :new_gc_cycles: 4483
+  :new_percent_gc_time: 0.0995
+  :new_percent_marking: 0.0745
+  :new_percent_sweeping: 0.025
+  :new_percent_kernel_page_fault: 0.0389
   :baseline_runtime:
-  - 145.77
-  - 145.45
-  - 145.88
-  :baseline_runtime_avg: 145.70000000000002
-  :baseline_gc_cycles: 10873
-  :baseline_percent_gc_time: 0.1309
-  :runtime_cmp: 1.033287577213452
-  :gc_cycle_cmp: 0.40862687390784513
+  - 127.72
+  - 127.65
+  - 128.02
+  :baseline_runtime_avg: 127.79666666666667
+  :baseline_gc_cycles: 10838
+  :baseline_percent_gc_time: 0.1442
+  :runtime_cmp: 1.0190928297556014
+  :gc_cycle_cmp: 0.41363720243587376
 - :benchmark: qda.R
   :arguments: 4 1500
   :samples: 3
   :new_runtime:
-  - 32.82
-  - 32.9
-  - 32.87
-  :new_runtime_avg: 32.86333333333334
-  :new_gc_cycles: 809
-  :new_percent_gc_time: 0.11
-  :new_percent_marking: 0.0777
-  :new_percent_sweeping: 0.032299999999999995
-  :new_percent_kernel_page_fault: 0.0374
+  - 28.91
+  - 28.88
+  - 28.76
+  :new_runtime_avg: 28.849999999999998
+  :new_gc_cycles: 808
+  :new_percent_gc_time: 0.11650000000000002
+  :new_percent_marking: 0.08020000000000001
+  :new_percent_sweeping: 0.036300000000000006
+  :new_percent_kernel_page_fault: 0.03819999999999999
   :baseline_runtime:
-  - 31.95
-  - 31.84
-  - 31.94
-  :baseline_runtime_avg: 31.91
+  - 28.56
+  - 28.39
+  - 28.61
+  :baseline_runtime_avg: 28.52
   :baseline_gc_cycles: 2814
-  :baseline_percent_gc_time: 0.1286
-  :runtime_cmp: 1.029875692050559
-  :gc_cycle_cmp: 0.2874911158493248
+  :baseline_percent_gc_time: 0.1344
+  :runtime_cmp: 1.011570827489481
+  :gc_cycle_cmp: 0.287135749822317
 - :benchmark: ctree.R
   :arguments: 3 500
   :samples: 3
   :new_runtime:
-  - 25.88
-  - 25.87
-  - 25.87
-  :new_runtime_avg: 25.873333333333335
-  :new_gc_cycles: 202
-  :new_percent_gc_time: 0.10670000000000002
-  :new_percent_marking: 0.06190000000000001
-  :new_percent_sweeping: 0.0448
-  :new_percent_kernel_page_fault: 0.007899999999999999
+  - 22.33
+  - 22.44
+  - 22.28
+  :new_runtime_avg: 22.349999999999998
+  :new_gc_cycles: 200
+  :new_percent_gc_time: 0.11789999999999999
+  :new_percent_marking: 0.06659999999999999
+  :new_percent_sweeping: 0.0513
+  :new_percent_kernel_page_fault: 0.0062
   :baseline_runtime:
-  - 26.39
-  - 26.37
-  - 26.21
-  :baseline_runtime_avg: 26.323333333333334
-  :baseline_gc_cycles: 359
-  :baseline_percent_gc_time: 0.0721
-  :runtime_cmp: 0.9829049005951628
-  :gc_cycle_cmp: 0.5626740947075209
+  - 23.13
+  - 22.98
+  - 23.07
+  :baseline_runtime_avg: 23.060000000000002
+  :baseline_gc_cycles: 360
+  :baseline_percent_gc_time: 0.0794
+  :runtime_cmp: 0.9692107545533389
+  :gc_cycle_cmp: 0.5555555555555556
 - :benchmark: cforest.R
   :arguments: 32 5
   :samples: 3
   :new_runtime:
-  - 39.99
-  - 39.92
-  - 39.91
-  :new_runtime_avg: 39.94
-  :new_gc_cycles: 196
-  :new_percent_gc_time: 0.07529999999999999
-  :new_percent_marking: 0.07169999999999999
-  :new_percent_sweeping: 0.0036
-  :new_percent_kernel_page_fault: 0.0051
+  - 33.48
+  - 33.6
+  - 33.75
+  :new_runtime_avg: 33.61
+  :new_gc_cycles: 178
+  :new_percent_gc_time: 0.0845
+  :new_percent_marking: 0.08030000000000001
+  :new_percent_sweeping: 0.0042
+  :new_percent_kernel_page_fault: 0.0058
   :baseline_runtime:
-  - 44.22
-  - 44.21
-  - 44.06
-  :baseline_runtime_avg: 44.163333333333334
+  - 37.71
+  - 37.8
+  - 37.68
+  :baseline_runtime_avg: 37.73
   :baseline_gc_cycles: 150
-  :baseline_percent_gc_time: 0.1182
-  :runtime_cmp: 0.9043701411427277
-  :gc_cycle_cmp: 1.3066666666666666
+  :baseline_percent_gc_time: 0.12960000000000002
+  :runtime_cmp: 0.8908030744765439
+  :gc_cycle_cmp: 1.1866666666666668
 - :benchmark: glm_logistic.R
   :arguments: 47 10
   :samples: 3
   :new_runtime:
-  - 10.96
-  - 10.95
-  - 10.95
-  :new_runtime_avg: 10.953333333333333
-  :new_gc_cycles: 124
-  :new_percent_gc_time: 0.0584
-  :new_percent_marking: 0.0545
-  :new_percent_sweeping: 0.0039000000000000003
-  :new_percent_kernel_page_fault: 0.0337
+  - 9.52
+  - 9.56
+  - 9.49
+  :new_runtime_avg: 9.523333333333333
+  :new_gc_cycles: 123
+  :new_percent_gc_time: 0.0627
+  :new_percent_marking: 0.0585
+  :new_percent_sweeping: 0.0042
+  :new_percent_kernel_page_fault: 0.035300000000000005
   :baseline_runtime:
-  - 10.46
-  - 10.41
-  - 10.39
-  :baseline_runtime_avg: 10.42
+  - 9.06
+  - 9.08
+  - 9.06
+  :baseline_runtime_avg: 9.066666666666668
   :baseline_gc_cycles: 107
-  :baseline_percent_gc_time: 0.061500000000000006
-  :runtime_cmp: 1.051183621241203
-  :gc_cycle_cmp: 1.158878504672897
+  :baseline_percent_gc_time: 0.06709999999999999
+  :runtime_cmp: 1.0503676470588235
+  :gc_cycle_cmp: 1.1495327102803738
 - :benchmark: knn.R
   :arguments: 45 5
   :samples: 3
   :new_runtime:
-  - 115.65
-  - 115.97999999999999
-  - 116.25999999999999
-  :new_runtime_avg: 115.96333333333332
+  - 113.46000000000001
+  - 112.97
+  - 112.78999999999999
+  :new_runtime_avg: 113.07333333333334
   :new_gc_cycles: 61
-  :new_percent_gc_time: 0.002
-  :new_percent_marking: 0.0019
+  :new_percent_gc_time: 0.0019
+  :new_percent_marking: 0.0018
   :new_percent_sweeping: 0.0001
-  :new_percent_kernel_page_fault: 0.0004
+  :new_percent_kernel_page_fault: 0.00030000000000000003
   :baseline_runtime:
-  - 116.03
-  - 116.17
-  - 116.21000000000001
-  :baseline_runtime_avg: 116.13666666666666
+  - 113.28
+  - 112.72
+  - 113.45
+  :baseline_runtime_avg: 113.14999999999999
   :baseline_gc_cycles: 39
   :baseline_percent_gc_time: 0.0019
-  :runtime_cmp: 0.9985075055250997
+  :runtime_cmp: 0.9993224333480631
   :gc_cycle_cmp: 1.564102564102564
 - :benchmark: lm.R
   :arguments: 46 40
   :samples: 3
   :new_runtime:
-  - 26.49
-  - 26.46
-  - 26.48
-  :new_runtime_avg: 26.47666666666667
-  :new_gc_cycles: 273
-  :new_percent_gc_time: 0.0416
-  :new_percent_marking: 0.0354
-  :new_percent_sweeping: 0.0062
-  :new_percent_kernel_page_fault: 0.031700000000000006
+  - 22.83
+  - 22.83
+  - 22.91
+  :new_runtime_avg: 22.856666666666666
+  :new_gc_cycles: 279
+  :new_percent_gc_time: 0.0453
+  :new_percent_marking: 0.0382
+  :new_percent_sweeping: 0.0070999999999999995
+  :new_percent_kernel_page_fault: 0.035
   :baseline_runtime:
-  - 25.19
-  - 25.55
-  - 25.24
-  :baseline_runtime_avg: 25.326666666666668
+  - 21.81
+  - 21.99
+  - 21.81
+  :baseline_runtime_avg: 21.87
   :baseline_gc_cycles: 236
-  :baseline_percent_gc_time: 0.049800000000000004
-  :runtime_cmp: 1.0454066859699922
-  :gc_cycle_cmp: 1.1567796610169492
+  :baseline_percent_gc_time: 0.0552
+  :runtime_cmp: 1.0451150739216581
+  :gc_cycle_cmp: 1.1822033898305084
 - :benchmark: svm.R
   :arguments: 47 1
   :samples: 3
   :new_runtime:
-  - 69.82
-  - 69.9
-  - 69.82
-  :new_runtime_avg: 69.84666666666666
+  - 65.2
+  - 65.41
+  - 65.58
+  :new_runtime_avg: 65.39666666666666
   :new_gc_cycles: 84
   :new_percent_gc_time: 0.0056
   :new_percent_marking: 0.0054
   :new_percent_sweeping: 0.0002
-  :new_percent_kernel_page_fault: 0.0020000000000000005
+  :new_percent_kernel_page_fault: 0.0018000000000000004
   :baseline_runtime:
-  - 70.48
-  - 70.38
-  - 71.05
-  :baseline_runtime_avg: 70.63666666666667
+  - 66.19
+  - 66.03
+  - 66.21
+  :baseline_runtime_avg: 66.14333333333333
   :baseline_gc_cycles: 67
-  :baseline_percent_gc_time: 0.0067
-  :runtime_cmp: 0.9888160067953375
+  :baseline_percent_gc_time: 0.0069
+  :runtime_cmp: 0.9887113843672831
   :gc_cycle_cmp: 1.2537313432835822
 - :benchmark: R-benchmark-25.R
   :arguments: 
   :samples: 3
   :new_runtime:
-  - 98.75
-  - 99.56
-  - 99.25
-  :new_runtime_avg: 99.18666666666667
-  :new_gc_cycles: 198
-  :new_percent_gc_time: 0.09990000000000002
-  :new_percent_marking: 0.09470000000000002
-  :new_percent_sweeping: 0.0052
-  :new_percent_kernel_page_fault: 0.017800000000000003
+  - 236.66
+  - 237.13
+  - 236.43
+  :new_runtime_avg: 236.74
+  :new_gc_cycles: 194
+  :new_percent_gc_time: 0.0385
+  :new_percent_marking: 0.0365
+  :new_percent_sweeping: 0.002
+  :new_percent_kernel_page_fault: 0.0070999999999999995
   :baseline_runtime:
-  - 105.57
-  - 106.47
-  - 106.82
-  :baseline_runtime_avg: 106.28666666666668
-  :baseline_gc_cycles: 227
-  :baseline_percent_gc_time: 0.1699
-  :runtime_cmp: 0.9331995233017625
-  :gc_cycle_cmp: 0.8722466960352423
+  - 244.13
+  - 244.02
+  - 244.1
+  :baseline_runtime_avg: 244.08333333333334
+  :baseline_gc_cycles: 228
+  :baseline_percent_gc_time: 0.07
+  :runtime_cmp: 0.9699146466370775
+  :gc_cycle_cmp: 0.8508771929824561
 - :benchmark: spectral-norm.r
   :arguments: '5000'
   :samples: 3
   :new_runtime:
-  - 11.15
-  - 11.13
-  - 11.12
-  :new_runtime_avg: 11.133333333333333
+  - 9.93
+  - 9.94
+  - 9.91
+  :new_runtime_avg: 9.926666666666666
   :new_gc_cycles: 34
-  :new_percent_gc_time: 0.0083
-  :new_percent_marking: 0.0078000000000000005
-  :new_percent_sweeping: 0.0005
-  :new_percent_kernel_page_fault: 0.0189
+  :new_percent_gc_time: 0.008499999999999999
+  :new_percent_marking: 0.0081
+  :new_percent_sweeping: 0.0004
+  :new_percent_kernel_page_fault: 0.017599999999999998
   :baseline_runtime:
-  - 11.09
-  - 11.02
-  - 11.12
-  :baseline_runtime_avg: 11.076666666666666
+  - 9.91
+  - 9.92
+  - 9.92
+  :baseline_runtime_avg: 9.916666666666666
   :baseline_gc_cycles: 8
-  :baseline_percent_gc_time: 0.0078000000000000005
-  :runtime_cmp: 1.0051158591634066
+  :baseline_percent_gc_time: 0.0084
+  :runtime_cmp: 1.0010084033613444
   :gc_cycle_cmp: 4.25
 - :benchmark: k-nucleotide.R
   :arguments: 
   :samples: 3
   :new_runtime:
-  - 46.23
-  - 46.32
-  - 45.86
-  :new_runtime_avg: 46.13666666666666
-  :new_gc_cycles: 886
-  :new_percent_gc_time: 0.2546
-  :new_percent_marking: 0.2042
-  :new_percent_sweeping: 0.05039999999999999
-  :new_percent_kernel_page_fault: 0.0010000000000000002
+  - 40.75
+  - 40.74
+  - 40.61
+  :new_runtime_avg: 40.7
+  :new_gc_cycles: 888
+  :new_percent_gc_time: 0.2408
+  :new_percent_marking: 0.18689999999999998
+  :new_percent_sweeping: 0.0539
+  :new_percent_kernel_page_fault: 0.0033
   :baseline_runtime:
-  - 46.29
-  - 46.26
-  - 46.4
-  :baseline_runtime_avg: 46.31666666666666
+  - 41.88
+  - 41.92
+  - 41.57
+  :baseline_runtime_avg: 41.79
   :baseline_gc_cycles: 820
-  :baseline_percent_gc_time: 0.20199999999999999
-  :runtime_cmp: 0.9961137099676143
-  :gc_cycle_cmp: 1.0804878048780489
+  :baseline_percent_gc_time: 0.2162
+  :runtime_cmp: 0.9739172050729841
+  :gc_cycle_cmp: 1.0829268292682928
 - :benchmark: nbody.R
   :arguments: 
   :samples: 3
   :new_runtime:
-  - 85.8
-  - 85.06
-  - 84.56
-  :new_runtime_avg: 85.14
-  :new_gc_cycles: 3059
-  :new_percent_gc_time: 0.1753
-  :new_percent_marking: 0.0866
-  :new_percent_sweeping: 0.0887
+  - 73.11
+  - 72.92
+  - 73.35
+  :new_runtime_avg: 73.12666666666667
+  :new_gc_cycles: 3035
+  :new_percent_gc_time: 0.1987
+  :new_percent_marking: 0.0966
+  :new_percent_sweeping: 0.1021
   :new_percent_kernel_page_fault: 0.0
   :baseline_runtime:
-  - 81.9
-  - 81.66
-  - 81.69
-  :baseline_runtime_avg: 81.75
+  - 70.97
+  - 71.1
+  - 71.63
+  :baseline_runtime_avg: 71.23333333333333
   :baseline_gc_cycles: 3212
-  :baseline_percent_gc_time: 0.0274
-  :runtime_cmp: 1.0414678899082568
-  :gc_cycle_cmp: 0.9523661270236613
+  :baseline_percent_gc_time: 0.030600000000000002
+  :runtime_cmp: 1.0265793167992512
+  :gc_cycle_cmp: 0.9448941469489415
 - :benchmark: fasta.R
   :arguments: 
   :samples: 3
   :new_runtime:
-  - 12.75
-  - 12.85
-  - 12.35
-  :new_runtime_avg: 12.65
-  :new_gc_cycles: 8937
-  :new_percent_gc_time: 0.14980000000000002
-  :new_percent_marking: 0.0883
-  :new_percent_sweeping: 0.061500000000000006
-  :new_percent_kernel_page_fault: 0.0006000000000000001
+  - 11.25
+  - 11.41
+  - 11.45
+  :new_runtime_avg: 11.37
+  :new_gc_cycles: 8933
+  :new_percent_gc_time: 0.1694
+  :new_percent_marking: 0.09759999999999999
+  :new_percent_sweeping: 0.07179999999999999
+  :new_percent_kernel_page_fault: 0.0005
   :baseline_runtime:
-  - 12.22
-  - 12.0
-  - 12.45
-  :baseline_runtime_avg: 12.223333333333334
+  - 11.33
+  - 11.06
+  - 11.32
+  :baseline_runtime_avg: 11.236666666666666
   :baseline_gc_cycles: 356
-  :baseline_percent_gc_time: 0.021
-  :runtime_cmp: 1.0349059176438504
-  :gc_cycle_cmp: 25.103932584269664
+  :baseline_percent_gc_time: 0.0229
+  :runtime_cmp: 1.0118659151587066
+  :gc_cycle_cmp: 25.09269662921348
 - :benchmark: rw2d1.R
   :arguments: 
   :samples: 3
   :new_runtime:
-  - 2.1
-  - 2.32
-  - 2.2
-  :new_runtime_avg: 2.2066666666666666
+  - 1.78
+  - 1.82
+  - 1.77
+  :new_runtime_avg: 1.79
   :new_gc_cycles: 392
-  :new_percent_gc_time: 0.2632
-  :new_percent_marking: 0.2221
-  :new_percent_sweeping: 0.041100000000000005
-  :new_percent_kernel_page_fault: 0.0039
+  :new_percent_gc_time: 0.2909
+  :new_percent_marking: 0.24569999999999997
+  :new_percent_sweeping: 0.045200000000000004
+  :new_percent_kernel_page_fault: 0.0041
   :baseline_runtime:
-  - 2.16
-  - 2.02
-  - 1.86
-  :baseline_runtime_avg: 2.013333333333333
+  - 1.66
+  - 1.74
+  - 1.68
+  :baseline_runtime_avg: 1.6933333333333334
   :baseline_gc_cycles: 172
-  :baseline_percent_gc_time: 0.0635
-  :runtime_cmp: 1.096026490066225
+  :baseline_percent_gc_time: 0.0776
+  :runtime_cmp: 1.0570866141732282
   :gc_cycle_cmp: 2.2790697674418605
