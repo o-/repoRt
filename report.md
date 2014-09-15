@@ -6,9 +6,13 @@ The new GC implementation resides in the branch new_gc, all data is based on 1c2
 
 The baseline is svn commit 66436 (8276bb2108dcf6093f508b21e7e1f73d6d4213f6).
 
-# Recording
+# Methodology
 
-For tools see: https://github.com:o-/benchR (run-experiments, run-experiment.rb)
+* Used scripts: https://github.com:o-/benchR (run-experiments, run-experiment.rb, run-suite)
+* Intel(R) Core(TM) i5 CPU M 520  @ 2.40GHz
+* 8 GB Ram
+* Linux 3.14-2-amd64
+* gcc (Debian 4.9.1-4) 4.9.1
 
 # Benchmarks
 
